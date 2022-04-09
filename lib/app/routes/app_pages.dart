@@ -2,6 +2,8 @@ import 'package:get/get.dart';
 
 import '../modules/LoginMobileNumber/bindings/login_mobile_number_binding.dart';
 import '../modules/LoginMobileNumber/views/login_mobile_number_view.dart';
+import '../modules/LoginOtp/bindings/login_otp_binding.dart';
+import '../modules/LoginOtp/views/login_otp_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/splash/bindings/splash_binding.dart';
@@ -29,6 +31,11 @@ class AppPages {
       name: _Paths.LOGIN_MOBILE_NUMBER,
       page: () => LoginMobileNumberView(),
       binding: LoginMobileNumberBinding(),
+    ),
+    GetPage(
+      name: _Paths.LOGIN_OTP,
+      page: () => LoginOtpView(),
+      binding: LoginOtpBinding(),
     ),
   ];
 }

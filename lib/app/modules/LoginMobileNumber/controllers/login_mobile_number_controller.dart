@@ -28,7 +28,7 @@ class LoginMobileNumberController extends GetxController {
       var mobileNumberExist =
           await userFirebase.checkUserExist(mobileNumberController.text);
       if (mobileNumberExist) {
-        // Get.toNamed(Routes.LOGIN_OTP);
+        Get.toNamed(Routes.LOGIN_OTP);
       } else {
         Get.showSnackbar(GetSnackBar(
           messageText: Text(
