@@ -1,12 +1,23 @@
+import 'package:driver/app/routes/app_pages.dart';
 import 'package:get/get.dart';
 
-class SplashController extends GetxController {
-  //TODO: Implement SplashController
+import '../../../../infastructure/managers/index.dart';
 
-  final count = 0.obs;
+class SplashController extends GetxController {
   @override
   void onInit() {
+    start();
     super.onInit();
+  }
+
+  void start() async {
+    await UserManager.intUser();
+    await Future.delayed(Duration(seconds: 1));
+    if (UserManager.isUserLoged) {
+      Get.offNamed(Routes.HOME);
+    } else {
+      Get.offNamed(Routes.LOGIN_MOBILE_NUMBER);
+    }
   }
 
   @override
@@ -16,5 +27,4 @@ class SplashController extends GetxController {
 
   @override
   void onClose() {}
-  void increment() => count.value++;
 }
