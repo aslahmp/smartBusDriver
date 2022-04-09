@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "87013321411",
+    "firebase_url": "https://smartbusmhes-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smartbusmhes",
+    "storage_bucket": "smartbusmhes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87013321411:android:7739663a3bf1d0349c5076",
+        "android_client_info": {
+          "package_name": "com.mhes.smart_bus_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87013321411-5ojroeo14vv8h1fsc8u31fdt3v2284gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3wJeOHVUA8PoEexr9EsUwj6SnIaNnDsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87013321411-5ojroeo14vv8h1fsc8u31fdt3v2284gn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "87013321411-u8f9lek8v0u2cn3kokjh0ng1gvncasap.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mhes.smartBusAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87013321411:android:d26237a05227bb9f9c5076",
+        "android_client_info": {
+          "package_name": "com.mhes.smart_bus_students"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87013321411-p828ggpqnp9ld9i52nni5f1bo226j1i8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mhes.smart_bus_students",
+            "certificate_hash": "746588061881c417a0396931a3ade4000e1429e9"
+          }
+        },
+        {
+          "client_id": "87013321411-5ojroeo14vv8h1fsc8u31fdt3v2284gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3wJeOHVUA8PoEexr9EsUwj6SnIaNnDsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87013321411-5ojroeo14vv8h1fsc8u31fdt3v2284gn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "87013321411-u8f9lek8v0u2cn3kokjh0ng1gvncasap.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mhes.smartBusAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87013321411:android:aa98067ac3ecb89d9c5076",
+        "android_client_info": {
+          "package_name": "com.smartbus.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87013321411-5ojroeo14vv8h1fsc8u31fdt3v2284gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3wJeOHVUA8PoEexr9EsUwj6SnIaNnDsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87013321411-5ojroeo14vv8h1fsc8u31fdt3v2284gn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "87013321411-u8f9lek8v0u2cn3kokjh0ng1gvncasap.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mhes.smartBusAdmin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
