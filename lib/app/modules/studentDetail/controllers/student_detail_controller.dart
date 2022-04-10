@@ -14,7 +14,14 @@ class StudentDetailController extends GetxController {
   void onInit() {
     studentModel = Get.arguments;
     getPaymentData();
+    startYearLisern();
     super.onInit();
+  }
+
+  void startYearLisern() {
+    selectedYear.listen((p0) {
+      getPaymentData();
+    });
   }
 
   @override
