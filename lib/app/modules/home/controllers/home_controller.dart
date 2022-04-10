@@ -32,7 +32,6 @@ class HomeController extends GetxController {
         ));
       }
     }
-    print(qrCode);
   }
 
   void gotSudentDetailPage(String id) async {
