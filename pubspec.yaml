@@ -17,8 +17,9 @@ dependencies:
   cached_network_image: 3.2.0
   lottie: 1.2.2
   pin_code_fields: 7.3.0
-  shared_preferences: 2.0.13  
+  shared_preferences: 2.0.13
   flutter_switch: 0.3.2
+  flutter_barcode_scanner: 2.0.0
   flutter: 
     sdk: flutter
 

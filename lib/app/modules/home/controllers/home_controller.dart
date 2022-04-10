@@ -1,3 +1,4 @@
+import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:get/get.dart';
 
 import '../../../data/firbase/driver/firbase_driver.dart';
@@ -12,6 +13,22 @@ class HomeController extends GetxController {
   void onInit() {
     getDriver();
     super.onInit();
+  }
+
+  void scanQr() async {
+    final qrCode = await FlutterBarcodeScanner.scanBarcode(
+        '#2F6193', 'cancel', true, ScanMode.QR);
+    if (qrCode != '-1') {
+      var components = qrCode.split('&');
+      if (components[0] == 'SmartBus') {
+      } else {
+        Get.showSnackbar(GetSnackBar(
+          message: 'Invalid Qr Code',
+          duration: Duration(seconds: 2),
+        ));
+      }
+    }
+    print(qrCode);
   }
 
   void getDriver() async {
