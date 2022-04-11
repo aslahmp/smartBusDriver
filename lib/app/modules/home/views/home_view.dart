@@ -18,14 +18,32 @@ class HomeView extends GetView<HomeController> {
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
-      body: Column(
-        children: [
-          WorkModeView(),
-          verticalSpace(20),
-          DriverDetails(),
-          verticalSpace(20),
-          ScanQr(),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            WorkModeView(),
+            verticalSpace(20),
+            DriverDetails(),
+            verticalSpace(20),
+            ScanQr(),
+            verticalSpace(20),
+            SearchStudent(),
+            verticalSpace(20),
+            TextButton(
+                onPressed: controller.logout,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(
+                      Icons.logout,
+                      size: 15,
+                    ),
+                    horizontalSpace(10),
+                    Text('Logout'),
+                  ],
+                ))
+          ],
+        ),
       ),
     );
   }
